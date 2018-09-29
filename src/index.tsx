@@ -3,7 +3,4 @@ import { render } from 'react-dom'
 
 const element = document.getElementById('app')
 
-render(
-  <p>hello, world</p>,
-  element
-)
+render(<p>hello, world</p>, element)
